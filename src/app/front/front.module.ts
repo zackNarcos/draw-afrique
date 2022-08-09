@@ -9,6 +9,9 @@ import { DecouverteComponent } from './decouverte/decouverte.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import {FrontTempModule} from "../templates/front-temp/front-temp.module";
 import { ChallengesComponent } from './challenges/challenges.component';
+import { CollectionComponent } from './collection/collection/collection.component';
+import { SousCollectionComponent } from './collection/sous-collection/sous-collection.component';
+import { SousCollectionLinkComponent } from './collection/sous-collection-link/sous-collection-link.component';
 
 
 @NgModule({
@@ -17,7 +20,10 @@ import { ChallengesComponent } from './challenges/challenges.component';
     FrontAccueilComponent,
     DecouverteComponent,
     AccueilComponent,
-    ChallengesComponent
+    ChallengesComponent,
+    CollectionComponent,
+    SousCollectionComponent,
+    SousCollectionLinkComponent
   ],
   imports: [
     CommonModule,

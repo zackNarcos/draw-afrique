@@ -1,0 +1,4 @@
+<div>
+  <a *ngFor="let linkItem of linkItems" [routerLink]="[linkItem.path]"
+     class="btn-outline-secondary btn px-3 py-1 me-3 mb-2">{{linkItem.title}}</a>
+</div>

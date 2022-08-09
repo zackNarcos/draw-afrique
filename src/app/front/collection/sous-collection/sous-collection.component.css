@@ -1,0 +1,22 @@
+.da-collection-image-last {
+  border-radius: 0px 10px 10px 0px;
+  padding-left: 10px;
+}
+
+.da-collection-image-first {
+  border-radius: 10px 0px 0px 10px;
+  padding-right: 10px;
+}
+
+.da-collection-image-primary {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  height: 270px;
+}
+
+.da-collection-image {
+  height: 90px;
+  object-fit: cover;
+}
+
