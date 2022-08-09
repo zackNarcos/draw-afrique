@@ -7,7 +7,7 @@ import {DecouverteComponent} from "./decouverte/decouverte.component";
 
 const frontRoutes: Routes = [
   {
-    path: 'front',
+    path: '',
     component: FrontComponent,
     children: [
       {
@@ -19,27 +19,17 @@ const frontRoutes: Routes = [
             component: DecouverteComponent
           },
           {
-            path: '',
+            path: 'accueil',
             component: AccueilComponent
+          },
+          {
+            path: '',
+            redirectTo: 'accueil',
+            pathMatch: 'full'
           },
 
         ]
       },
-      {
-        path: 'licence',
-        component: FrontAccueilComponent,
-        children: [
-          {
-            path: 'decouverte',
-            component: DecouverteComponent
-          },
-          {
-            path: '',
-            component: AccueilComponent
-          },
-
-        ]
-      }
     ]
   }
 ];

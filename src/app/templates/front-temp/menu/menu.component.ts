@@ -7,10 +7,10 @@ export interface RouteInfo {
 }
 
 export const ROUTES: RouteInfo[] = [
-  {path: '', title: 'Accueil', class: 'da-active'},
-  {path: 'decouverte', title: 'Decouverte', class: 'da-active'},
-  {path: 'classement', title: 'Classement', class: 'da-active'},
-  {path: 'challenges', title: 'Challenges', class: 'da-active'},
+  {path: 'accueil', title: 'Accueil', class: ''},
+  {path: 'decouverte', title: 'Decouverte', class: ''},
+  {path: 'classement', title: 'Classement', class: ''},
+  {path: 'challenges', title: 'Challenges', class: ''},
 ];
 
 @Component({

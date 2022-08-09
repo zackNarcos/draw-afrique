@@ -1,8 +1,8 @@
-<ul class="nav d-flex justify-content-center fw-bold">
+<ul class="nav d-flex justify-content-center fw-bold pt-3 pb-1">
 
 
-  <li *ngFor="let menuItem of menuItems" class="{{menuItem.class}} mx-3">
-    <a [routerLink]="[menuItem.path]" class="nav-link text-dark pb-0 btn">
+  <li *ngFor="let menuItem of menuItems" class="{{menuItem.class}} mx-3" routerLinkActive="da-active">
+    <a [routerLink]="[menuItem.path]" class="nav-link text-dark pb-0">
       <p class="mb-1  text-uppercase">{{menuItem.title}}</p>
     </a>
   </li>
