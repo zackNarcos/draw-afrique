@@ -1,0 +1,31 @@
+<div class="blockForm">
+    <h1>Commande</h1>
+    <div class="FormBlock">
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label">Catégorie</label>
+              <select id="categorie" class="form-select">
+                <option value="illustration">Illustration</option>
+                <option value="icone">Icone</option>
+                <option value="presation">Presentation</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+                <label for="code-postal" class="form-label">Code Postal </label>
+                <input type="text" class="form-control" id="code-postal" placeholder="11500">
+            </div>
+            <div class="col-md-12">
+                <label for="description" class="form-label">Description</label>
+                <textarea class="form-control" placeholder="" id="description" style="height: 100px"></textarea>
+            </div>
+            <div class="col-6">
+                <button type="submit" class="btn btn-primary btnRight" routerLink="/front/commande" >Retour</button>
+              </div>
+            <div class="col-6">
+              <button type="submit" class="btn btn-primary btnLeft" routerLink="#" >Valider</button>
+            </div>
+          </form>
+    </div>
+    
+
+</div>

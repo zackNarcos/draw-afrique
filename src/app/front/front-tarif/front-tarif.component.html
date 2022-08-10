@@ -1,0 +1,87 @@
+<app-header></app-header>
+
+<div class="conteneur">
+    <div class="block_left">
+        <h1> 
+            Plans abordables à <br/>  
+            des tarifs plus <br/> 
+            simples !
+        </h1>
+        <p> 
+            Choisissez dès maintenant un plan profitable pour télécharger <br/>
+            selon vos besoisn sans vous souciez des quotas mensuels, <br/>
+            et bénéficiez d'un mode de paiement flexible adapté à votre <br/>
+            budjet ainsi qu'à vos besoins. 
+        </p>
+    </div>
+
+    <div class="block_right">
+        <h1>Pack de téléchargement</h1> <br/>
+        <p class="p"> Idéal pour obtenir du contenu à tout moment</p>
+        <div class="container">
+            <div class="tab">
+                <div class="content">
+                    <div class="content-value" *ngIf="id ==='10'">
+                        <h2>1750 <br> FCFA/image </h2>
+                        <div>
+                            <ul>
+                                <li> <span class="oldPrice"> 20.000</span> <span class="newPrice"> 17.500 FCFA</span> </li>
+                                <li> 10 ressources </li>
+                                <li> Valable pour une utilisation à tout moment <br> durant l'année de l'achat </li>
+                                <li> Sans engagement mensuel </li>
+                            </ul>                            
+                        </div>
+                    </div>
+
+                    <div class="content-value" *ngIf="id ==='20'">
+                        <h2>1500 <br> FCFA/image </h2>
+                        <div>
+                            <ul>
+                                <li> <span class="oldPrice"> 40.000</span> <span class="newPrice"> 30.000 FCFA</span></li>
+                                <li> 20 ressources </li>
+                                <li> Valable pour une utilisation à tout moment <br> durant l'année de l'achat </li>
+                                <li> Sans engagement mensuel </li>
+                            </ul>                            
+                        </div>
+                    </div>
+
+                    <div class="content-value" *ngIf="id ==='30'">
+                        <h2>1250 <br> FCFA/image </h2>
+                        <div>
+                            <ul>
+                                <li> <span class="oldPrice"> 60.000</span> <span class="newPrice"> 37.500 FCFA</span> </li>
+                                <li> 30 ressources </li>
+                                <li> Valable pour une utilisation à tout moment <br> durant l'année de l'achat </li>
+                                <li> Sans engagement mensuel </li>
+                            </ul>                            
+                        </div>
+                    </div>
+
+                    <div class="content-value" *ngIf="id ==='40'">
+                        <h2>1000 <br> FCFA/image </h2>
+                        <div>
+                            <ul>
+                                <li> <span class="oldPrice"> 80.000</span> <span class="newPrice"> 40.000 FCFA</span> </li>
+                                <li> 40 ressources </li>
+                                <li> Valable pour une utilisation à tout moment <br> durant l'année de l'achat </li>
+                                <li> Sans engagement mensuel </li>
+                            </ul>                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="separator"> <pre>  Choisissez votre plan  </pre>  </div>
+                <p>Nombre d'images</p>
+
+                <ul class="ul">
+                    <li id="10" [class.color]="id==='10'" (click)="tabChange('10')">10</li>
+                    <li id="20" [class.color]="id==='20'" (click)="tabChange('20')">20</li>
+                    <li id="30" [class.color]="id==='30'" (click)="tabChange('30')">30</li>
+                    <li id="40" [class.color]="id==='40'" (click)="tabChange('40')">40</li>
+                </ul>
+
+                <button> Acheter maintenant</button>
+            </div>
+        </div>
+    </div>
+</div>

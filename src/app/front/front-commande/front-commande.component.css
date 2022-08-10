@@ -1,0 +1,116 @@
+.conteneur{
+    display: flex;
+    background-color:#F2F4F4 ;
+    justify-content: space-around;
+    height: 850px;
+}
+
+.leftBlock{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.leftTop{
+    background: url("/assets/Image/fond5.jpeg") no-repeat ;
+    background-size:cover;
+    height: 310px;
+    width: 310px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.leftTop h1{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.leftTop .content{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.leftTop .content img{
+    margin-top: 5px;
+}
+
+.leftTop .content p{
+    width: 200px;
+}
+
+.leftBottom{
+    background-color: white;
+    height: 300px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.leftBottom .p{
+    font-size: 12px;
+    margin-bottom: 0;
+    background-color: #f9ac1a;
+    border-radius: 5px;
+    height: 35px;
+    width: 230px;
+    color: white;
+    padding-top: 7px;
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 0.3em #707B7C;
+}
+
+.leftBottom .content{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    height: 55px;
+    font-size: 13px;
+    color: gray;
+}
+
+.leftBottom .content img, .leftBottom .content p{
+    margin-left: 10px;
+    margin-top: 20px ;
+}
+
+.leftBottom .content p{
+    width: 200px;
+    padding-top: 7px;
+}
+
+.rightBlock{
+    width: 850px;
+    height: 750px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+.rightBlock h1{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.rightBlock p{
+    font-size: 12px;
+    width: 510px;
+    color: gray;
+}

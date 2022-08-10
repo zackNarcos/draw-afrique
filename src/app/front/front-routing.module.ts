@@ -4,6 +4,11 @@ import {FrontComponent} from "./front/front.component";
 import {FrontAccueilComponent} from "./front-accueil/front-accueil.component";
 import {AccueilComponent} from "./accueil/accueil.component";
 import {DecouverteComponent} from "./decouverte/decouverte.component";
+import { FrontTarifComponent } from './front-tarif/front-tarif.component';
+import { FrontLicenceComponent } from './front-licence/front-licence.component';
+import { FrontCommandeComponent } from './front-commande/front-commande.component';
+import { FormCmd1Component } from './form-cmd1/form-cmd1.component';
+import { FormCmd2Component } from './form-cmd2/form-cmd2.component';
 
 const frontRoutes: Routes = [
   {
@@ -26,20 +31,28 @@ const frontRoutes: Routes = [
         ]
       },
       {
+        path: 'tarif',
+        component: FrontTarifComponent
+      },
+      {
         path: 'licence',
-        component: FrontAccueilComponent,
+        component: FrontLicenceComponent
+      },
+      {
+        path: 'commande',
+        component: FrontCommandeComponent,
         children: [
           {
-            path: 'decouverte',
-            component: DecouverteComponent
+            path: '',
+            component: FormCmd1Component
           },
           {
-            path: '',
-            component: AccueilComponent
+            path: 'form2',
+            component: FormCmd2Component
           },
 
         ]
-      }
+      },
     ]
   }
 ];
