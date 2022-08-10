@@ -9,6 +9,10 @@ import { FrontLicenceComponent } from './front-licence/front-licence.component';
 import { FrontCommandeComponent } from './front-commande/front-commande.component';
 import { FormCmd1Component } from './form-cmd1/form-cmd1.component';
 import { FormCmd2Component } from './form-cmd2/form-cmd2.component';
+import { FrontAuthentificationComponent } from './front-authentification/front-authentification.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { SignInComponent } from './sign-in/sign-in.component';
+import { CommissionComponent } from './commission/commission.component';
 
 const frontRoutes: Routes = [
   {
@@ -50,6 +54,25 @@ const frontRoutes: Routes = [
             path: 'form2',
             component: FormCmd2Component
           },
+
+        ]
+      },
+      {
+        path: 'auth',
+        component: FrontAuthentificationComponent,
+        children: [
+          {
+            path: '',
+            component: SignInComponent
+          },
+          {
+            path: 'signup',
+            component: SignUpComponent
+          },
+          {
+            path: 'commission',
+            component: CommissionComponent
+          }
 
         ]
       },

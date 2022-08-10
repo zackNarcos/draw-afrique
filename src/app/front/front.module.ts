@@ -14,6 +14,10 @@ import { FrontLicenceComponent } from './front-licence/front-licence.component';
 import { FrontCommandeComponent } from './front-commande/front-commande.component';
 import { FormCmd1Component } from './form-cmd1/form-cmd1.component';
 import { FormCmd2Component } from './form-cmd2/form-cmd2.component';
+import { SignInComponent } from './sign-in/sign-in.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { CommissionComponent } from './commission/commission.component';
+import { FrontAuthentificationComponent } from './front-authentification/front-authentification.component';
 
 
 @NgModule({
@@ -26,8 +30,12 @@ import { FormCmd2Component } from './form-cmd2/form-cmd2.component';
     FrontTarifComponent,
     FrontLicenceComponent,
     FrontCommandeComponent,
+    FrontAuthentificationComponent,
     FormCmd1Component,
-    FormCmd2Component
+    FormCmd2Component,
+    SignInComponent,
+    SignUpComponent,
+    CommissionComponent
   ],
   imports: [
     CommonModule,

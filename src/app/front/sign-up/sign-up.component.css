@@ -1,0 +1,53 @@
+.blockRight{
+    margin: 40px;
+}
+
+.blockRight h1{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.blockRight p{
+    color: black;
+    font-size: 13px;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.blockRight p a{
+    color: #F8AE1A;
+    font-weight: bold;
+}
+
+.blockRight h3{
+    color: black;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.FormBlock div{
+    margin-bottom: 10px;
+}
+
+.FormBlock a{
+    color: black;
+}
+
+.checkBox{
+    background-color: #F8AE1A;
+}
+
+.btn{
+    margin-top: 10px;
+    height: 40px;
+    width: 250px;
+    font-size: 15px;
+    background-color: #f8ae1b;
+    border-style: none;
+    float:right;
+    border-radius: 10px;
+    color: black;
+}
+

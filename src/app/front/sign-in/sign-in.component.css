@@ -1,0 +1,43 @@
+.blockRight{
+    margin: 50px;
+}
+
+.blockRight h1{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.blockRight p{
+    color: black;
+    font-size: 13px;
+    margin: 30px;
+    margin-left: 0px;
+}
+
+.blockRight p a{
+    color: #F8AE1A;
+    font-weight: bold;
+}
+
+.blockRight h3{
+    color: black;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.FormBlock div{
+    margin-bottom: 10px;
+}
+
+
+.btn{
+    margin-top: 10px;
+    height: 40px;
+    width: 200px;
+    font-size: 15px;
+    background-color: #f8ae1b;
+    border-style: none;
+    float:right;
+}
